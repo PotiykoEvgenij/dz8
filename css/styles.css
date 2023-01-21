@@ -173,11 +173,23 @@ body {
     margin-bottom: 16px;
 }
 @media screen and (min-width: 480px) {
+    .products-title {
+        margin-bottom: 145px;
+    }
     .products-card {
         width: 250px;
     }
+    .products-card-content {
+        padding-top: 126px;
+    }
+    .products-card-desc {
+        margin-bottom: 106px;
+    }
 }
 @media screen and (min-width: 768px) {
+    .products-title {
+        margin-bottom: 200px;
+    }
     .products {
         padding: 60px 36px;
         text-align: center;
@@ -193,9 +205,16 @@ body {
     .products-card:last-of-type {
         margin: 0;
     }
+    .products-card-content {
+        padding-top: 108px;
+    }
     .products-card-desc {
+        margin-bottom: 75px;
         width: 175px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .products-card-btn {
+        margin-bottom: 12px;
     }
 }
